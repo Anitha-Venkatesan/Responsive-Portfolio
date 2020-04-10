@@ -17,15 +17,15 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/e39a5d32af.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <h1 class="navbar-brand mb-0">Anitha Venkatesan</h1>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-5">
+        <a class="navbar-brand mb-0" href="index.html"> Anitha Venkatesan</a>
+        
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +44,7 @@
     <main class="container border border-transparent mb-5">
         <div class="row">
             <div class="col-md-6">
-                <form class="container m-0 w-100">
+                <form class="container m-0 w-100 " onsubmit="alert('Form Submitted Successfully!')">
                     <div class="row">
                         <div class="col mt-2 mb-3">
                             <h4>Send Message</h4>
@@ -56,7 +56,6 @@
                             <label for="fname">First Name</label>
                             <input id="fname" type="text" class="form-control" required placeholder="Enter First Name" aria-label="Name">
                         </div>
-
                         <div class="col">
                             <label for="lname">Last Name</label>
                             <input id="lname" type="text" class="form-control" required placeholder="Enter Last Name" aria-label="Name">             
@@ -80,12 +79,10 @@
 
                     <div class="row p-2">
                         <div class="col">
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                            
+                            <button type="submit" class="btn btn-primary">Submit</button> 
                         </div>
                     </div>
                 </form>
-
             </div>
             <div class="col-md-6 border-left border-transparent">
                 <section class="container m-0 w-100">
@@ -96,7 +93,7 @@
                     </div>
                     <div class="row">
                         <div class="col p-2">
-                            <summary>Thanks for visiting my profile,Please feel free to contact me, if you have any questions?</summary>
+                            <p>Thanks for visiting my profile,Please feel free to contact me, if you have any questions?</p>
                         </div>
                     </div> 
                     <div class="row">
@@ -106,7 +103,7 @@
                                     <p> <i class="fas fa-map-marker-alt"></i> <a href="https://goo.gl/maps/5d9Q2jA14b49ntz8A" target="_blank">15721, 60th Ave N, Plymouth-55446</a></p>
                                 </li>
                                 <li>
-                                    <p> <i class="fas fa-phone-volume"></i> : <a href="tel:9803370241 " target="_blank" >9803370241</a></p>
+                                    <p> <i class="fas fa-phone-volume"></i> : <a href="tel:9803370241 " >9803370241</a></p>
                                 </li>
                                 <li>
                                     <a class ="mr-2" href="mailto:anithamca68@gmail.com" target="_blank">
@@ -117,14 +114,11 @@
                                 
                                     <a href="https://github.com/Anitha-Venkatesan" target="_blank">
                                         <i class="fab fa-github fa-2x"></i></a>
-                                    
-                              </li>
-                                
+                                </li> 
                             </ul>
                         </div>
                     </div> 
                 </section>
-                
             </div>
         </div>
     </main>
@@ -133,8 +127,6 @@
         <p>	© 2020 Copyright : AV</p>
     </footer>
     
-    
 </body>
-
 </html>
 
