@@ -3,22 +3,6 @@
   width:100%;
   height: 90%;
 }
-.portfolio-pic
-{
-  width: 80%;
-  height: 75%;
-}
-
-.container-color 
-{
-  background-color: lightslategray;
-}
-h2,h3,h4,h5,label,p,summary
-{
-
-  font-family: 'Slabo 27px', serif;
-}
-
 body{
     background-color:lightgray;
 }
